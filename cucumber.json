@@ -1,0 +1,7 @@
+{
+    "default" :{
+        "paths":["__tests__/features/*.feature", "__tests__/features/**/*.feature"],
+        "import": ["__tests__/steps/*.spec.js", "__tests__/steps/**/*.spec.js"],
+        "require": ["__tests__/steps/*.spec.js", "__tests__/hooks/hooks.js"]
+    }
+}
